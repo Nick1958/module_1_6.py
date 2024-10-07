@@ -12,8 +12,8 @@ print(a)
 
 my_set={1,1,2,3,4,2,3,'String',True,(1,2,7)}
 print(my_set)
-print(my_set.add(7))
-print(my_set.add(9))
+my_set.add(7)
+my_set.add(9)
 print(my_set)
-print(my_set.remove('String'))
+my_set.remove('String')
 print(my_set)
